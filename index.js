@@ -15,19 +15,31 @@
  Scrivi una funzione chiamata "reverseString", che accetta una stringa come parametro e la ritorna invertita (es.: EPICODE => EDOCIPE).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+function reverseString(parola) {
+  let invertita = parola.split("").reverse().join("");
+  console.log(invertita);
+  return invertita;
+}
+
+let reverse = reverseString("EPICODE");
 
 /* ESERCIZIO 4
  Scrivi una funzione chiamata "upperFirst", che accetta una stringa come parametro e la ritorna rendendo maiuscola ogni lettera iniziale di ogni parola.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+function upperFirst(string) {
+  let upperString = string.toUpperCase("");
+  console.log(upperString);
+  return upperString;
+}
+
+let stringaMaiuscola = upperFirst("epicode");
 
 /* ESERCIZIO 5
  Scrivi una funzione chiamata "giveMeRandom", che accetta come parametro un numero chiamato n e ritorna un array contenente n numeri random contenuti tra 0 e 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
 
 //EXTRA:
 /* ESERCIZIO 1
